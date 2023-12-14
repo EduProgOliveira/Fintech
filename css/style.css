@@ -106,6 +106,16 @@
     padding: 15px 20px;
 }
 
+.common-monthly-budget-balance-progress{
+    width: auto;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #357A2A;
+    padding: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .common-container-card-last-expenses{
     position: absolute;
     top: 440px;
