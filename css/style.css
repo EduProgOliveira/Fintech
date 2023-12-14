@@ -1,0 +1,218 @@
+
+
+.common-header-background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 180px;
+    background-color: black;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.common-header-background > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.common-header-title{
+    color: #fff;
+}
+
+.common-card-title{
+    color: #fff;
+}
+
+.common-card-text{
+    font-size: 0.8em;
+    color: #fff;
+}
+
+.common-card-expenses-text{
+    font-size: 0.7em;
+    color: #fff;
+    margin: 0px;
+}
+
+.common-card-expenses-text-description{
+    font-size: 0.6em;
+    color: #fff;
+    margin: 0px;
+}
+
+.common-container-card-info{
+    position: absolute;
+    top: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.common-card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C1C1C;
+    width: 40%;
+    height: 150px;
+    border-radius: 15px 15px;
+}
+
+.common-card-info-left{
+    margin-left: 8%;
+}
+
+.common-card-info-right{
+    margin-right: 8%;
+}
+
+.common-container-card-monthly-budget{
+    position: absolute;
+    top: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.common-card-monthly-budget{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: #1C1C1C;
+    border-radius: 15px 15px;
+}
+
+.common-monthly-budget-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.common-monthly-budget-balance{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 20px;
+}
+
+.common-container-card-last-expenses{
+    position: absolute;
+    top: 440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.common-card-last-expenses{
+    width: 100%;
+    height: 400px;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: #1C1C1C;
+    border-radius: 15px 15px;
+}
+
+.common-last-expenses-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 15px 0px 0px 15px;
+}
+
+.common-container-list-expenses{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 10px 10px 0px 10px;
+}
+
+.common-card-expenses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-bottom: 1px solid grey;
+}
+
+.common-expenses-row-first{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+    width: 35%;
+    height: auto;
+}
+
+.common-icon-expenses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.common-description-expenses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: start;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.common-info-expenses{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.common-card-info-icon {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.common-card-info-icon-green{
+    width: auto;
+    height: auto;
+    color: #357A2A;
+}
+
+.common-card-info-icon-red{
+    width: auto;
+    height: auto;
+    color: #FF3131;
+}
+
+.common-expenses-icon {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.common-expenses-icon-green{
+    color: #357A2A;
+}
+
+.common-expenses-icon-gold{
+    color: #7A692A;
+}
